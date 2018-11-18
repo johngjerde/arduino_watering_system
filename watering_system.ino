@@ -243,8 +243,10 @@ void loop(){
       digitalWrite (Relay_Valve_6, HIGH); 
       delay(Time_To_Water); 
       digitalWrite (Relay_Valve_6, LOW); 
-      delay(1000); } 
-      digitalWrite (Relay_Pump, LOW); 
       delay(1000); 
+    } 
+
+    digitalWrite (Relay_Pump, LOW); 
+    delay(1000); 
   } 
 }
